@@ -25,6 +25,10 @@ def lambda_handler(event, context):
             # adjust all OHLC automatically
             # (optional, default is False)
             auto_adjust = True,
+            
+            # download pre/post regular market hours data
+            # (optional, default is False)
+            # prepost = False,
 
             # use threads for mass downloading? (True/False/Integer)
             # (optional, default is True)
@@ -43,7 +47,7 @@ def lambda_handler(event, context):
 
     for name in stocks:
         
-        for row_index, row in data[i].iterrows():
+        for row_index, row in data[name].iterrows():
             
             results.append({
                 "high": row['High'],
