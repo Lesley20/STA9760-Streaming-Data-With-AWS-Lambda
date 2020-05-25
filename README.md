@@ -15,6 +15,5 @@ URL for DataCollector: https://1jxy4na23d.execute-api.us-east-2.amazonaws.com/de
 ![alt text](config/data_collector_conf.png)
 
 #### Kinesis Data Firehose Delivery Stream Monitoring
-which can ensure if it working
 ![alt text](config/delivery_stream_monitoring.png)
 
