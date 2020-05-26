@@ -17,3 +17,9 @@ URL for DataCollector: https://1jxy4na23d.execute-api.us-east-2.amazonaws.com/de
 #### Kinesis Data Firehose Delivery Stream Monitoring
 ![alt text](config/delivery_stream_monitoring.png)
 
+#### Querying Data in AWS Athena
+~[alt text](config/athena_query .png)
+
+Trying to find the highest stock price of each hour per company. Query outputs are saved to `results.csv`. 
+
+Some simple visuals are generated using jupyter notebook.
