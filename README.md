@@ -12,7 +12,7 @@ URL for DataCollector: https://1jxy4na23d.execute-api.us-east-2.amazonaws.com/de
 ( Note: use the `TEST` button when generating data during the collection proccess, regardless of input format. )
 
 #### DataCollector Lambda configuration page
-![alt text](config/data_collector_conf.png)
+![alt text](config/data_conllector_conf.png)
 
 #### Kinesis Data Firehose Delivery Stream Monitoring
 ![alt text](config/delivery_stream_monitoring.png)
